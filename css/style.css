@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -20;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+  }
+
+.img-main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    margin-top: -100px;
+}
+
+.lista{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    border-left: 2px solid white;
+    padding-left: 1px;
+    line-height: 1.6;
+}
+
+.lista li{
+    list-style: none;
+    padding-right: 10px;
+}
+
+.lista li:hover{
+    background-color: #765b77;
+}
+ .lista li a{
+     text-decoration: none;
+     color: white;
+     border-left: 3px solid #765b77;
+     padding-left: 10px;
+ }
+
+.lista-main{
+    display: inline-block;
+}
+.play-area{
+    display: inline-block;
+    margin-left: 31%;
+}
+
+.play-btn{
+    width: 250px;
+    display: inline-block;
+    margin-left: 30%;
+    opacity: 0.5;
+}
+.play-btn:hover {
+	opacity: 1;
+}
+.slajder{
+    display: block;
+    margin-left: 53%;
+    
+}
+
+input[type='range'] {
+ 
+    -webkit-appearance: none;
+    background-color: #765b77;
+    cursor: pointer;
+    
+  }
+
+
+.social-media{
+    display: block;
+    margin-top: 250px;
+}
+
+.social-media a{
+    text-decoration: none;
+}
+
+.facebook{
+    display: inline-block;
+    width: 30px;
+    margin-left: 47%;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+.insta{
+    display: inline-block;
+    width: 30px;
+    margin-left: 1%;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+
+.facebook:hover{
+   opacity: 1;
+}
+
+.insta:hover{
+    opacity: 1;
+}
